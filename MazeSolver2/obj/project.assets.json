@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jhb15/RiderProjects/MazeSolver2/MazeSolver2/MazeSolver2.csproj",
+      "projectUniqueName": "/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/MazeSolver2.csproj",
       "projectName": "MazeSolver2",
-      "projectPath": "/home/jhb15/RiderProjects/MazeSolver2/MazeSolver2/MazeSolver2.csproj",
+      "projectPath": "/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/MazeSolver2.csproj",
       "packagesPath": "/home/jhb15/.nuget/packages/",
-      "outputPath": "/home/jhb15/RiderProjects/MazeSolver2/MazeSolver2/obj/",
+      "outputPath": "/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/jhb15/.config/NuGet/NuGet.Config"

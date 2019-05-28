@@ -71,5 +71,11 @@ namespace MazeSolver2
             return null;
         }
 
+        public Maze SolveMazeShortestPath(Maze inputMaze)
+        {
+            //TODO Implement
+            return inputMaze;
+        }
+
     }
 }

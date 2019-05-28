@@ -1,0 +1,11 @@
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.deps.json
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.runtimeconfig.json
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.runtimeconfig.dev.json
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.dll
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.pdb
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.csprojAssemblyReference.cache
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.csproj.CoreCompileInputs.cache
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.AssemblyInfoInputs.cache
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.AssemblyInfo.cs
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.dll
+/home/jhb15/RiderProjects/MazeSolver/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.pdb

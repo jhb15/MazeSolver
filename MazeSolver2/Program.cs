@@ -37,7 +37,7 @@ namespace MazeSolver2
         static int[] ConvertLine(string input)
         {
             string[] intStrings = input.Split(' ');
-            Console.WriteLine(intStrings.Length);
+            //Console.WriteLine(intStrings.Length);
             int[] ints = new int[intStrings.Length];
 
             int i = 0;
@@ -106,6 +106,7 @@ namespace MazeSolver2
                         Maze maze = GetMazeFromFile(filePath);
                         if (maze == null) goto default;
                         maze.PrintMaze();
+                        Console.WriteLine("");
                         var solvedMaze = mazeSolver.SolveMaze(maze);
                         solvedMaze?.PrintMaze();
                         break;

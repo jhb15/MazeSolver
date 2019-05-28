@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_MazeSolver2.-1735150592.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="MazeSolver2" t="IncludeRecursive">
+        <e p="Maze.cs" t="Include" />
+        <e p="MazeSolver.cs" t="Include" />
+        <e p="MazeSolver2.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Samples" t="Include">
+          <e p="input.txt" t="Include" />
+          <e p="large_input.txt" t="Include" />
+          <e p="medium_input.txt" t="Include" />
+          <e p="small_input.txt" t="Include" />
+          <e p="small_wrap_input.txt" t="Include" />
+          <e p="sparse_large.txt" t="Include" />
+          <e p="sparse_medium.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="MazeSolver2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="MazeSolver2.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
