@@ -20,7 +20,7 @@ namespace MazeSolver2
     enum South { X = 0, Y = -1 };
     enum West { X = -1, Y = 0 };
     */
-    public enum MazeValue {Empty, Wall, Start, Finish, WasHere, North, East, South, West}
+    public enum MazeValue {Empty, Wall, Start, Finish, WasHere, North, East, South, West, SolutionMove}
 
     /**
      * Maze class, used to represent a maze and store all of its properties.
@@ -89,7 +89,8 @@ namespace MazeSolver2
                     //if (solution[x, y])  maze_state[x, y] = MazeValue.Move;
                     var sv = solution[x, y];
                     if ((sv == MazeValue.North) || (sv == MazeValue.East) ||
-                        (sv == MazeValue.South) || (sv == MazeValue.West))
+                        (sv == MazeValue.South) || (sv == MazeValue.West) ||
+                        (sv == MazeValue.SolutionMove))
                     {
                         _mazeState[x, y] = sv;
                     }
@@ -137,8 +138,9 @@ namespace MazeSolver2
         /**
          * Function used to print the current maze state to the console
          */
-        public void PrintMaze()
+        public void PrintMaze(string heading)
         {
+            Console.WriteLine(heading);
             for(var i = 0; i < _dimensions.y; i++)
             {
                 for(var j = 0; j < _dimensions.x; j++)
@@ -153,19 +155,22 @@ namespace MazeSolver2
                             Console.Write('#');
                             break;
                         case MazeValue.Start:
-                            Console.Write('B');
+                            Console.Write('S');
+                            break;
+                        case MazeValue.SolutionMove:
+                            Console.Write('X');
                             break;
                         case MazeValue.North:
-                            Console.Write('n');
+                            Console.Write('n'); //Mainly used to debug code
                             break;
                         case MazeValue.East:
-                            Console.Write('e');
+                            Console.Write('e'); //Mainly used to debug code
                             break;
                         case MazeValue.South:
-                            Console.Write('s');
+                            Console.Write('s'); //Mainly used to debug code
                             break;
                         case MazeValue.West:
-                            Console.Write('w');
+                            Console.Write('w'); //Mainly used to debug code
                             break;
                         case MazeValue.Finish:
                             Console.Write('F');

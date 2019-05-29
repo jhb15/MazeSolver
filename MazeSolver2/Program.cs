@@ -105,7 +105,7 @@ namespace MazeSolver2
                 switch (option)
                 {
                     case 'H':
-                        Console.WriteLine("\n\nTo solve a selected maze use the 'S' menu option. Once you see a message" +
+                        Console.WriteLine("\n\nTo solve a selected maze use the 'S' menu option. Once you see a message " +
                                           "asking for a file path, input the path of the maze input.\n" +
                                           "Warning! You can only use a relative file paths.  \n\n");
                         break;
@@ -113,10 +113,10 @@ namespace MazeSolver2
                         string filePath = GetFile();
                         Maze maze = GetMazeFromFile(filePath);
                         if (maze == null) goto default;
-                        maze.PrintMaze();
+                        maze.PrintMaze("Input Maze:");
                         Console.WriteLine("");
                         var solvedMaze = mazeSolver.SolveMaze(maze);
-                        solvedMaze?.PrintMaze();
+                        solvedMaze?.PrintMaze("Solved Maze:");
                         break;
                     default:
                         Console.WriteLine("Error Unrecognised Option!");

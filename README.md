@@ -35,9 +35,7 @@ file found in the submitted .zip file.
 
 >
 >> This solution will not find the shortest/best path for solving a maze but it will find a path for
-solving the maze. An example of this would be when you input the sparse_large.txt sample maze, instead
-of taking the most direct path the solver decides to take a more covoluted path toward the destination
-pint.
+solving the maze. 
 >
 >> Also this application requires that you use a relative path towards the destination file instead of
 being able to use an absolute or relative path. Probably a simple change.

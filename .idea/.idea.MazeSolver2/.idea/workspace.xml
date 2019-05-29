@@ -5,7 +5,10 @@
       <change beforePath="$PROJECT_DIR$/MazeSolver2/Maze.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/Maze.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MazeSolver2/MazeSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/MazeSolver.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MazeSolver2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/bin/Release/netcoreapp2.1/MazeSolver2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/Release/netcoreapp2.1/MazeSolver2.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,18 +21,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MazeSolver2/MazeSolver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="200">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
               <folding>
-                <marker date="1559167788190" expanded="true" signature="36:2864" ph="{...}" />
-                <marker date="1559167788190" expanded="true" signature="66:2862" ph="{...}" />
-                <marker date="1559167788190" expanded="true" signature="200:629" ph="{...}" />
-                <marker date="1559167788190" expanded="true" signature="686:2717" ph="{...}" />
-                <marker date="1559167788190" expanded="true" signature="1179:1393" ph="{...}" />
-                <marker date="1559167788190" expanded="true" signature="1608:1819" ph="{...}" />
-                <marker date="1559167788190" expanded="true" signature="2041:2255" ph="{...}" />
-                <marker date="1559167788190" expanded="true" signature="2470:2681" ph="{...}" />
-                <marker date="1559167788190" expanded="true" signature="2776:2855" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="36:2981" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="66:2979" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="201:632" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="689:2834" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="1177:1413" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="1635:1874" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="2101:2337" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="2559:2798" ph="{...}" />
+                <marker date="1559170465543" expanded="true" signature="2893:2972" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -38,28 +41,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MazeSolver2/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="80">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <marker date="1559167759233" expanded="false" signature="6:30" ph="..." />
-                <marker date="1559167759233" expanded="true" signature="53:4271" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="177:4269" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="192:276" ph="/* Function used to print the user menu to the command line. ... */" />
-                <marker date="1559167759233" expanded="true" signature="316:560" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="590:935" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="667:741" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="781:925" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="976:1169" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="1225:1674" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="1455:1639" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="1736:2819" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="1762:2642" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="1897:1966" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="2257:2517" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="2394:2499" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="2674:2809" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="2868:4263" ph="{...}" />
-                <marker date="1559167759233" expanded="true" signature="3216:4216" ph="{...}" />
+                <marker date="1559169215410" expanded="false" signature="6:30" ph="..." />
+                <marker date="1559169215410" expanded="true" signature="53:4299" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="177:4297" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="192:276" ph="/* Function used to print the user menu to the command line. ... */" />
+                <marker date="1559169215410" expanded="true" signature="316:560" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="590:935" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="667:741" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="781:925" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="976:1169" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="1225:1674" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="1455:1639" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="1736:2819" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="1762:2642" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="1897:1966" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="2257:2517" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="2394:2499" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="2674:2809" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="2868:4291" ph="{...}" />
+                <marker date="1559169215410" expanded="true" signature="3216:4244" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,40 +71,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MazeSolver2/Maze.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
-              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            <state relative-caret-position="50">
+              <caret line="99" column="64" lean-forward="true" selection-start-line="99" selection-start-column="64" selection-end-line="99" selection-end-column="64" />
               <folding>
-                <marker date="1559167234476" expanded="false" signature="6:39" ph="..." />
-                <marker date="1559167234476" expanded="true" signature="62:5935" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="89:225" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="159:219" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="231:372" ph="/* enum North { X = 0, Y = 1 }; ... */" />
-                <marker date="1559167234476" expanded="true" signature="468:556" ph="/* Maze class, used to represent a maze and store all of its properties. ... */" />
-                <marker date="1559167234476" expanded="true" signature="578:5933" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="895:1126" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="1136:1235" ph="/* Initialises the current position vars and also initializes the array of ... */" />
-                <marker date="1559167234476" expanded="true" signature="1273:1400" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="1410:1524" ph="/* Uses a 2D input array to populate the constructed objects _maze_state instance variable ... */" />
-                <marker date="1559167234476" expanded="true" signature="1578:1763" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="1781:1954" ph="/* Used to move the current location of an actor on the maze, take and x and y value as input to denote the ... */" />
-                <marker date="1559167234476" expanded="true" signature="1997:2395" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="2405:2557" ph="/* Used once a solution to the maze has been found to add this silution to the maze using and input 2D solution ... */" />
-                <marker date="1559167234476" expanded="true" signature="2612:3303" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="2674:3160" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="2744:3146" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="3037:3128" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="3350:3402" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="3436:3486" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="3518:3566" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="3605:3657" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="3688:3789" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="3828:3932" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="3964:4065" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="4075:4162" ph="/* Function used to print the current maze state to the console ... */" />
-                <marker date="1559167234476" expanded="true" signature="4194:5927" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="4255:5917" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="4324:5866" ph="{...}" />
-                <marker date="1559167234476" expanded="true" signature="4454:5848" ph="{...}" />
+                <marker date="1559169686326" expanded="false" signature="6:39" ph="..." />
+                <marker date="1559169686326" expanded="true" signature="62:6309" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="89:225" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="159:219" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="231:372" ph="/* enum North { X = 0, Y = 1 }; ... */" />
+                <marker date="1559169686326" expanded="true" signature="482:570" ph="/* Maze class, used to represent a maze and store all of its properties. ... */" />
+                <marker date="1559169686326" expanded="true" signature="592:6307" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="909:1140" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="1150:1249" ph="/* Initialises the current position vars and also initializes the array of ... */" />
+                <marker date="1559169686326" expanded="true" signature="1287:1414" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="1424:1538" ph="/* Uses a 2D input array to populate the constructed objects _maze_state instance variable ... */" />
+                <marker date="1559169686326" expanded="true" signature="1592:1777" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="1795:1968" ph="/* Used to move the current location of an actor on the maze, take and x and y value as input to denote the ... */" />
+                <marker date="1559169686326" expanded="true" signature="2011:2409" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="2419:2571" ph="/* Used once a solution to the maze has been found to add this silution to the maze using and input 2D solution ... */" />
+                <marker date="1559169686326" expanded="true" signature="2626:3375" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="2688:3232" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="2758:3218" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="3109:3200" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="3422:3474" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="3508:3558" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="3590:3638" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="3677:3729" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="3760:3861" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="3900:4004" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="4036:4137" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="4147:4234" ph="/* Function used to print the current maze state to the console ... */" />
+                <marker date="1559169686326" expanded="true" signature="4280:6301" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="4381:6291" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="4450:6240" ph="{...}" />
+                <marker date="1559169686326" expanded="true" signature="4580:6222" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,7 +115,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="256">
-                <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -135,8 +138,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/MazeSolver2/Maze.cs" />
         <option value="$PROJECT_DIR$/MazeSolver2/Program.cs" />
+        <option value="$PROJECT_DIR$/MazeSolver2/Maze.cs" />
         <option value="$PROJECT_DIR$/MazeSolver2/MazeSolver.cs" />
       </list>
     </option>
@@ -239,12 +242,12 @@
       <updated>1559042362808</updated>
       <workItem from="1559042389752" duration="3616000" />
       <workItem from="1559086926533" duration="1944000" />
-      <workItem from="1559166044511" duration="1743000" />
+      <workItem from="1559166044511" duration="3962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7303000" />
+    <option name="totallyTimeSpent" value="9522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,12 +262,12 @@
     <frame x="-4" y="0" width="1928" height="1039" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14194237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14194237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296582" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37265712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,7 +278,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.63836825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -306,7 +309,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="256">
-            <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -315,88 +318,88 @@
       </provider>
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MazeSolver2/Maze.cs">
+    <entry file="file://$PROJECT_DIR$/MazeSolver2/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        <state relative-caret-position="80">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <marker date="1559167234476" expanded="false" signature="6:39" ph="..." />
-            <marker date="1559167234476" expanded="true" signature="62:5935" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="89:225" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="159:219" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="231:372" ph="/* enum North { X = 0, Y = 1 }; ... */" />
-            <marker date="1559167234476" expanded="true" signature="468:556" ph="/* Maze class, used to represent a maze and store all of its properties. ... */" />
-            <marker date="1559167234476" expanded="true" signature="578:5933" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="895:1126" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="1136:1235" ph="/* Initialises the current position vars and also initializes the array of ... */" />
-            <marker date="1559167234476" expanded="true" signature="1273:1400" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="1410:1524" ph="/* Uses a 2D input array to populate the constructed objects _maze_state instance variable ... */" />
-            <marker date="1559167234476" expanded="true" signature="1578:1763" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="1781:1954" ph="/* Used to move the current location of an actor on the maze, take and x and y value as input to denote the ... */" />
-            <marker date="1559167234476" expanded="true" signature="1997:2395" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="2405:2557" ph="/* Used once a solution to the maze has been found to add this silution to the maze using and input 2D solution ... */" />
-            <marker date="1559167234476" expanded="true" signature="2612:3303" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="2674:3160" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="2744:3146" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="3037:3128" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="3350:3402" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="3436:3486" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="3518:3566" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="3605:3657" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="3688:3789" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="3828:3932" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="3964:4065" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="4075:4162" ph="/* Function used to print the current maze state to the console ... */" />
-            <marker date="1559167234476" expanded="true" signature="4194:5927" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="4255:5917" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="4324:5866" ph="{...}" />
-            <marker date="1559167234476" expanded="true" signature="4454:5848" ph="{...}" />
+            <marker date="1559169215410" expanded="false" signature="6:30" ph="..." />
+            <marker date="1559169215410" expanded="true" signature="53:4299" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="177:4297" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="192:276" ph="/* Function used to print the user menu to the command line. ... */" />
+            <marker date="1559169215410" expanded="true" signature="316:560" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="590:935" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="667:741" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="781:925" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="976:1169" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="1225:1674" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="1455:1639" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="1736:2819" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="1762:2642" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="1897:1966" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="2257:2517" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="2394:2499" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="2674:2809" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="2868:4291" ph="{...}" />
+            <marker date="1559169215410" expanded="true" signature="3216:4244" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MazeSolver2/Program.cs">
+    <entry file="file://$PROJECT_DIR$/MazeSolver2/Maze.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="50">
+          <caret line="99" column="64" lean-forward="true" selection-start-line="99" selection-start-column="64" selection-end-line="99" selection-end-column="64" />
           <folding>
-            <marker date="1559167759233" expanded="false" signature="6:30" ph="..." />
-            <marker date="1559167759233" expanded="true" signature="53:4271" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="177:4269" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="192:276" ph="/* Function used to print the user menu to the command line. ... */" />
-            <marker date="1559167759233" expanded="true" signature="316:560" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="590:935" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="667:741" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="781:925" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="976:1169" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="1225:1674" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="1455:1639" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="1736:2819" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="1762:2642" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="1897:1966" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="2257:2517" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="2394:2499" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="2674:2809" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="2868:4263" ph="{...}" />
-            <marker date="1559167759233" expanded="true" signature="3216:4216" ph="{...}" />
+            <marker date="1559169686326" expanded="false" signature="6:39" ph="..." />
+            <marker date="1559169686326" expanded="true" signature="62:6309" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="89:225" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="159:219" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="231:372" ph="/* enum North { X = 0, Y = 1 }; ... */" />
+            <marker date="1559169686326" expanded="true" signature="482:570" ph="/* Maze class, used to represent a maze and store all of its properties. ... */" />
+            <marker date="1559169686326" expanded="true" signature="592:6307" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="909:1140" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="1150:1249" ph="/* Initialises the current position vars and also initializes the array of ... */" />
+            <marker date="1559169686326" expanded="true" signature="1287:1414" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="1424:1538" ph="/* Uses a 2D input array to populate the constructed objects _maze_state instance variable ... */" />
+            <marker date="1559169686326" expanded="true" signature="1592:1777" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="1795:1968" ph="/* Used to move the current location of an actor on the maze, take and x and y value as input to denote the ... */" />
+            <marker date="1559169686326" expanded="true" signature="2011:2409" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="2419:2571" ph="/* Used once a solution to the maze has been found to add this silution to the maze using and input 2D solution ... */" />
+            <marker date="1559169686326" expanded="true" signature="2626:3375" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="2688:3232" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="2758:3218" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="3109:3200" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="3422:3474" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="3508:3558" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="3590:3638" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="3677:3729" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="3760:3861" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="3900:4004" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="4036:4137" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="4147:4234" ph="/* Function used to print the current maze state to the console ... */" />
+            <marker date="1559169686326" expanded="true" signature="4280:6301" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="4381:6291" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="4450:6240" ph="{...}" />
+            <marker date="1559169686326" expanded="true" signature="4580:6222" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MazeSolver2/MazeSolver.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="200">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
-            <marker date="1559167788190" expanded="true" signature="36:2864" ph="{...}" />
-            <marker date="1559167788190" expanded="true" signature="66:2862" ph="{...}" />
-            <marker date="1559167788190" expanded="true" signature="200:629" ph="{...}" />
-            <marker date="1559167788190" expanded="true" signature="686:2717" ph="{...}" />
-            <marker date="1559167788190" expanded="true" signature="1179:1393" ph="{...}" />
-            <marker date="1559167788190" expanded="true" signature="1608:1819" ph="{...}" />
-            <marker date="1559167788190" expanded="true" signature="2041:2255" ph="{...}" />
-            <marker date="1559167788190" expanded="true" signature="2470:2681" ph="{...}" />
-            <marker date="1559167788190" expanded="true" signature="2776:2855" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="36:2981" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="66:2979" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="201:632" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="689:2834" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="1177:1413" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="1635:1874" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="2101:2337" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="2559:2798" ph="{...}" />
+            <marker date="1559170465543" expanded="true" signature="2893:2972" ph="{...}" />
           </folding>
         </state>
       </provider>

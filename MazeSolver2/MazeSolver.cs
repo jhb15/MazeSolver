@@ -13,7 +13,7 @@ namespace MazeSolver2
             _visited = new bool[inputMaze.GetDimensions().x, inputMaze.GetDimensions().y];
             
             var output = SolveMazeRecursive(inputMaze);
-            if (output == null) Console.WriteLine("Error Unable to Solve Maze!");
+            if (output == null) Console.WriteLine("Maze provided is unsolvable!");
             output?.AddSolution(_solution);
             return output;
         }
@@ -24,17 +24,6 @@ namespace MazeSolver2
             if (inputMaze.HitWall() || _visited[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y]) return null;
             _visited[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = true;
 
-            var moveNorth = inputMaze;
-            moveNorth.MakeMove(0, -1);
-            var northOut = SolveMazeRecursive(moveNorth);
-            moveNorth.MakeMove(0, 1);
-            if (northOut != null) //Move North
-            {
-                //Console.WriteLine("MoveNorth");
-                _solution[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = MazeValue.North;
-                return northOut;
-            }
-
             var moveEast = inputMaze;
             moveEast.MakeMove(1, 0);
             var eastOut = SolveMazeRecursive(moveEast);
@@ -42,7 +31,7 @@ namespace MazeSolver2
             if (eastOut != null) //Move East
             {
                 //Console.WriteLine("MoveEast");
-                _solution[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = MazeValue.East;
+                _solution[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = MazeValue.SolutionMove;//MazeValue.East;
                 return eastOut;
             }
 
@@ -53,10 +42,10 @@ namespace MazeSolver2
             if (southOut != null) //Move South
             {
                 //Console.WriteLine("MoveSouth");
-                _solution[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = MazeValue.South;
+                _solution[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = MazeValue.SolutionMove;//MazeValue.South;
                 return southOut;
             }
-
+            
             var moveWest = inputMaze;
             moveWest.MakeMove(-1, 0);
             var westOut = SolveMazeRecursive(moveWest);
@@ -64,8 +53,19 @@ namespace MazeSolver2
             if (westOut != null) //Move West
             {
                 //Console.WriteLine("MoveWest");
-                _solution[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = MazeValue.West;
+                _solution[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = MazeValue.SolutionMove;//MazeValue.West;
                 return westOut;
+            }
+
+            var moveNorth = inputMaze;
+            moveNorth.MakeMove(0, -1);
+            var northOut = SolveMazeRecursive(moveNorth);
+            moveNorth.MakeMove(0, 1);
+            if (northOut != null) //Move North
+            {
+                //Console.WriteLine("MoveNorth");
+                _solution[inputMaze.GetCurrentPos().x, inputMaze.GetCurrentPos().y] = MazeValue.SolutionMove;//MazeValue.North;
+                return northOut;
             }
 
             return null;
