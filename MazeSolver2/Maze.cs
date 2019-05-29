@@ -22,112 +22,129 @@ namespace MazeSolver2
     */
     public enum MazeValue {Empty, Wall, Start, Finish, WasHere, North, East, South, West}
 
+    /**
+     * Maze class, used to represent a maze and store all of its properties.
+     */
     public class Maze
     {
-        readonly Coords dimentions;
-        public Coords start_pos;
-        readonly Coords end_pos;
-        private Coords current_pos;
-        private MazeValue[,] maze_state;
+        private readonly Coords _dimensions;
+        private readonly Coords _startPos;
+        private readonly Coords _endPos;
+        private Coords _currentPos;
+        private MazeValue[,] _mazeState;
 
         public Maze(int xLen, int yLen, int startX, int startY, int endX, int endY, MazeValue[,] input)
         {
-            dimentions = new Coords(xLen, yLen);
-            start_pos = new Coords(startX, startY);
-            end_pos = new Coords(endX, endY);
+            _dimensions = new Coords(xLen, yLen);
+            _startPos = new Coords(startX, startY);
+            _endPos = new Coords(endX, endY);
             InitialiseMaze();
             PopulateMaze(input);
         }
 
         /**
-         * Initialises the current position vars and also inializes the array of 
+         * Initialises the current position vars and also initializes the array of 
          */
         private void InitialiseMaze()
         {
-            current_pos = start_pos;
-            maze_state = new MazeValue[dimentions.x, dimentions.y];
+            _currentPos = _startPos;
+            _mazeState = new MazeValue[_dimensions.x, _dimensions.y];
         }
 
+        /**
+         * Uses a 2D input array to populate the constructed objects _maze_state instance variable
+         */
         private void PopulateMaze(MazeValue[,] input)
         {
-            maze_state = input;
-            maze_state[start_pos.x, start_pos.y] = MazeValue.Start;
-            maze_state[end_pos.x, end_pos.y] = MazeValue.Finish;
+            _mazeState = input;
+            _mazeState[_startPos.x, _startPos.y] = MazeValue.Start;
+            _mazeState[_endPos.x, _endPos.y] = MazeValue.Finish;
         }
         
+        /**
+         * Used to move the current location of an actor on the maze, take and x and y value as input to denote the
+         * change in x and y on the maze.
+         */
         public void MakeMove(int x, int y)
         {
-            current_pos.x += x;
-            current_pos.y += y;
+            _currentPos.x += x;
+            _currentPos.y += y;
             //Wrap round functionality.
-            if (current_pos.x >= dimentions.x) current_pos.x = 0;
-            if (current_pos.x < 0) current_pos.x = dimentions.x - 1;
-            if (current_pos.y >= dimentions.y) current_pos.y = 0;
-            if (current_pos.y < 0) current_pos.y = dimentions.y - 1;
+            if (_currentPos.x >= _dimensions.x) _currentPos.x = 0;
+            if (_currentPos.x < 0) _currentPos.x = _dimensions.x - 1;
+            if (_currentPos.y >= _dimensions.y) _currentPos.y = 0;
+            if (_currentPos.y < 0) _currentPos.y = _dimensions.y - 1;
         }
 
+        /**
+         * Used once a solution to the maze has been found to add this silution to the maze using and input 2D solution
+         * array
+         */
         public void AddSolution(MazeValue[,] solution)
         {
-            for (var y = 0; y < dimentions.y; y++)
+            for (var y = 0; y < _dimensions.y; y++)
             {
-                for (var x = 0; x < dimentions.x; x++)
+                for (var x = 0; x < _dimensions.x; x++)
                 {
                     //if (solution[x, y])  maze_state[x, y] = MazeValue.Move;
                     var sv = solution[x, y];
                     if ((sv == MazeValue.North) || (sv == MazeValue.East) ||
                         (sv == MazeValue.South) || (sv == MazeValue.West))
                     {
-                        maze_state[x, y] = sv;
+                        _mazeState[x, y] = sv;
                     }
                 }
             }
-            maze_state[start_pos.x, start_pos.y] = MazeValue.Start;
-            maze_state[end_pos.x, end_pos.y] = MazeValue.Finish;
+            _mazeState[_startPos.x, _startPos.y] = MazeValue.Start;
+            _mazeState[_endPos.x, _endPos.y] = MazeValue.Finish;
         }
         
-        public Coords getDimentions()
+        public Coords GetDimensions()
         {
-            return dimentions;
+            return _dimensions;
         }
 
-        public Coords getStart()
+        public Coords GetStart()
         {
-            return start_pos;
+            return _startPos;
         }
 
-        public Coords getEnd()
+        public Coords GetEnd()
         {
-            return end_pos;
+            return _endPos;
         }
 
-        public Coords getCurrentPos()
+        public Coords GetCurrentPos()
         {
-            return current_pos;
+            return _currentPos;
         }
 
         public bool HitWall()
         {
-            return (maze_state[current_pos.x, current_pos.y] == MazeValue.Wall);
+            return (_mazeState[_currentPos.x, _currentPos.y] == MazeValue.Wall);
         }
         
         public bool WasHere()
         {
-            return (maze_state[current_pos.x, current_pos.y] == MazeValue.WasHere);
+            return (_mazeState[_currentPos.x, _currentPos.y] == MazeValue.WasHere);
         }
 
         public bool IsSolved()
         {
-            return (current_pos.x == end_pos.x) && (current_pos.y == end_pos.y);
+            return (_currentPos.x == _endPos.x) && (_currentPos.y == _endPos.y);
         }
 
+        /**
+         * Function used to print the current maze state to the console
+         */
         public void PrintMaze()
         {
-            for(var i = 0; i < dimentions.y; i++)
+            for(var i = 0; i < _dimensions.y; i++)
             {
-                for(var j = 0; j < dimentions.x; j++)
+                for(var j = 0; j < _dimensions.x; j++)
                 {
                     //Console.Write(maze_state[j, i] ? '#' : ' ');
-                    switch (maze_state[j,i])
+                    switch (_mazeState[j,i])
                     {
                         case MazeValue.Empty:
                             Console.Write(' ');
@@ -157,7 +174,7 @@ namespace MazeSolver2
                             Console.Write('_');
                             break;
                         default:
-                            Console.WriteLine("Error unexpected value stored in Maze!, Value Was: " + maze_state[j,i]);
+                            Console.WriteLine("Error unexpected value stored in Maze!, Value Was: " + _mazeState[j,i]);
                             return;
                     }
                 }

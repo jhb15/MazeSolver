@@ -11,7 +11,9 @@
         <e p="Program.cs" t="Include" />
         <e p="Samples" t="Include">
           <e p="input.txt" t="Include" />
+          <e p="input_no_solve.txt" t="Include" />
           <e p="large_input.txt" t="Include" />
+          <e p="large_input_no_solve.txt" t="Include" />
           <e p="medium_input.txt" t="Include" />
           <e p="small_input.txt" t="Include" />
           <e p="small_wrap_input.txt" t="Include" />

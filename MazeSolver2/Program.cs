@@ -3,10 +3,14 @@ using System.IO;
 
 namespace MazeSolver2
 {
-    enum InputLine { DimLine = 0, StartLine = 1, EndLine = 2, MazeLine = 3 };
-    class Program
+    internal enum InputLine { DimLine = 0, StartLine = 1, EndLine = 2, MazeLine = 3 };
+
+    internal static class Program
     {
-        static void PrintMenu()
+        /**
+         * Function used to print the user menu to the command line.
+         */
+        private static void PrintMenu()
         {
             Console.WriteLine("\rPlease choose from the following options:");
             Console.WriteLine("S. Solve a Maze");
@@ -23,25 +27,27 @@ namespace MazeSolver2
             catch (OverflowException e)
             {
                 Console.WriteLine("{0} Value read = {1}.", e.Message, input);
-                return Char.MinValue;
+                return char.MinValue;
             }
         }
-        static string GetFile()
+
+        private static string GetFile()
         {
             Console.Write("Please enter file path for file: ");
-            string input = Console.ReadLine();
+            var input = Console.ReadLine();
 
             Console.WriteLine(input);
             return input;
         }
-        static int[] ConvertLine(string input)
+
+        private static int[] ConvertLine(string input)
         {
-            string[] intStrings = input.Split(' ');
+            var intStrings = input.Split(' ');
             //Console.WriteLine(intStrings.Length);
-            int[] ints = new int[intStrings.Length];
+            var ints = new int[intStrings.Length];
 
             int i = 0;
-            foreach(string intStr in intStrings)
+            foreach(var intStr in intStrings)
             {
                 if (intStr == "") continue; //TODO Temporary fix, should be a better way.
                 ints[i] = int.Parse(intStr);
@@ -49,12 +55,12 @@ namespace MazeSolver2
             }
             return ints;
         }
-        static Maze GetMazeFromFile(string filePath)
+
+        private static Maze GetMazeFromFile(string filePath)
         {
-            string[] fileLines;
             try
             {
-                fileLines = File.ReadAllLines(@filePath);
+                var fileLines = File.ReadAllLines(filePath);
                 
                 if (fileLines.Length == 0)
                 {
@@ -65,7 +71,7 @@ namespace MazeSolver2
                 var inStart = ConvertLine(fileLines[1]);
                 var intEnd = ConvertLine(fileLines[2]);
 
-                MazeValue[,] mazeVals = new MazeValue[inDims[0], inDims[1]];
+                var mazeVals = new MazeValue[inDims[0], inDims[1]];
                 for (var y = 0; y < inDims[1]; y++)
                 {
                     var yVals = ConvertLine(fileLines[y + 3]);
@@ -82,8 +88,8 @@ namespace MazeSolver2
                 return null;
             }
         }
-        
-        static void Main(string[] args)
+
+        private static void Main(string[] args)
         {
             Console.WriteLine("Maze Solver!");
             MazeSolver mazeSolver = new MazeSolver();
@@ -99,7 +105,9 @@ namespace MazeSolver2
                 switch (option)
                 {
                     case 'H':
-                        Console.WriteLine("Help requested, not yet implemented!");
+                        Console.WriteLine("\n\nTo solve a selected maze use the 'S' menu option. Once you see a message" +
+                                          "asking for a file path, input the path of the maze input.\n" +
+                                          "Warning! You can only use a relative file paths.  \n\n");
                         break;
                     case 'S':
                         string filePath = GetFile();
