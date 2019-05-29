@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5aae8e5-60d1-4c8f-a490-6946fb246e02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/MazeSolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/MazeSolver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/bin/Debug/netcoreapp2.1/MazeSolver2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/bin/Debug/netcoreapp2.1/MazeSolver2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/bin/Debug/netcoreapp2.1/MazeSolver2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/bin/Debug/netcoreapp2.1/MazeSolver2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/Debug/netcoreapp2.1/MazeSolver2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/Debug/netcoreapp2.1/MazeSolver2.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/Debug/netcoreapp2.1/MazeSolver2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/Debug/netcoreapp2.1/MazeSolver2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/Debug/netcoreapp2.1/MazeSolver2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/Debug/netcoreapp2.1/MazeSolver2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/Debug/netcoreapp2.1/MazeSolver2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/Debug/netcoreapp2.1/MazeSolver2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/MazeSolver2.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/MazeSolver2.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/MazeSolver2.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/MazeSolver2.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MazeSolver2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MazeSolver2/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +65,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="208">
-                <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <first_editor relative-caret-position="176">
+                <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -187,12 +176,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559042362808</updated>
       <workItem from="1559042389752" duration="3616000" />
-      <workItem from="1559086926533" duration="628000" />
+      <workItem from="1559086926533" duration="1944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4244000" />
+    <option name="totallyTimeSpent" value="5560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,8 +288,8 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="208">
-            <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <first_editor relative-caret-position="176">
+            <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
